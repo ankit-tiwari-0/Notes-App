@@ -29,7 +29,7 @@ const App = () => {
     <div className='h-screen bg-black text-white p-10 lg:flex'>
       <form onSubmit={(e) =>{
         SubmitHandler(e)
-      }} className='flex w-135  lg:w-1/2 px-10 items-start flex-col  gap-6 '>
+      }} className='flex w-100  lg:w-1/2 px-10 items-start flex-col  gap-6 '>
        <h1 className='text-3xl lg:text-5xl font-bold'>Your Notes</h1>
              <input 
         type="text"
